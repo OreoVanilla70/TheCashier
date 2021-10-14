@@ -7,6 +7,8 @@ Nama barang, quantitas, harga dan bisa memilih tipe harga dan barang.
 
 # Code Explain
 ## Calculator.cs
+Berfungsi sebagai code untuk mengkalkulasi Item item yang di Input User
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -40,8 +42,10 @@ namespace TheCashier
     }
 }
 ```
-Berfungsi sebagai code untuk mengkalkulasi Item item yang di Input User
+
 ## Item.cs
+Berfungsi sebagai code untuk mengkalkulasi Item item yang di Input User
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -91,8 +95,9 @@ namespace TheCashier
     }
 }
 ```
-Berfungsi untuk mengidentifikasi Item yang di inputkan User
 ## MainWindow.xaml
+Berfungsi untuk mengatur Layout Aplikasi
+
 ```csharp
 <Window x:Name="The_Cashier" x:Class="TheCashier.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -121,8 +126,10 @@ Berfungsi untuk mengidentifikasi Item yang di inputkan User
                 </DataTemplate>
             </ListBox.ItemTemplate>  
 ```
-Berfungsi untuk mengatur Layout Aplikasi
+
 ## MainWindow.xaml.cs
+Berfungsi untuk menggabungkan UI dan Code
+
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -141,6 +148,7 @@ using System.Windows.Shapes;
 
 namespace TheCashier
 {
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -173,5 +181,4 @@ namespace TheCashier
     }
 }
 ```
-Berfungsi untuk menggabungkan UI dan Code
 
